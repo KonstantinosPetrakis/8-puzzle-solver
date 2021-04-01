@@ -18,6 +18,6 @@
 </p>
 <h1> Screenshots </h1>
 <p>
-	<p> <img src="readme/screenshot_1.jpg"> </p>
-	<p> <img src="readme/screenshot_2.jpg"> </p>
+	<p> <img src="readme/screenshot1.jpg"> </p>
+	<p> <img src="readme/screenshot2.jpg"> </p>
 </p>
