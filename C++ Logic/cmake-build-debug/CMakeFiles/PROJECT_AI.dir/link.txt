@@ -1,3 +1,0 @@
-"C:\Program Files\JetBrains\CLion 2020.2.4\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\PROJECT_AI.dir/objects.a
-C:\PROGRA~2\CODEBL~1\MinGW\bin\ar.exe cr CMakeFiles\PROJECT_AI.dir/objects.a @CMakeFiles\PROJECT_AI.dir\objects1.rsp
-C:\PROGRA~2\CODEBL~1\MinGW\bin\MINGW3~2.EXE -g   -Wl,--whole-archive CMakeFiles\PROJECT_AI.dir/objects.a -Wl,--no-whole-archive  -o PROJECT_AI.exe -Wl,--out-implib,libPROJECT_AI.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\PROJECT_AI.dir\linklibs.rsp
