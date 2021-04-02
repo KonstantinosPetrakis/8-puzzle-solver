@@ -1,0 +1,4 @@
+"C:\Program Files\JetBrains\CLion 2020.2.4\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=C:/Program Files (x86)/CodeBlocks/MinGW/bin/mingw32-make.exe" "-DCMAKE_C_COMPILER=C:/Program Files (x86)/CodeBlocks/MinGW/bin/mingw32-gcc.exe" "-DCMAKE_CXX_COMPILER=C:/Program Files (x86)/CodeBlocks/MinGW/bin/mingw32-g++.exe" -G "CodeBlocks - MinGW Makefiles" "C:\Users\Kostas\Desktop\University\4d semester\Artificial Intelligence\Project 1\PROJECT AI"
+-- Configuring done
+-- Generating done
+-- Build files have been written to: C:/Users/Kostas/Desktop/University/4d semester/Artificial Intelligence/Project 1/PROJECT AI/cmake-build-debug

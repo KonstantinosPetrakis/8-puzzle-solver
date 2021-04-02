@@ -1,0 +1,1 @@
+BFS 10.890000 28 61384 178223 ,down,down,right,right,up,up,left,left,down,down,right,right,up,up,left,left,down,down,right,right,up,up,left,left,down,down,right,right,
