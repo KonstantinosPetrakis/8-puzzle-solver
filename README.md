@@ -2,9 +2,9 @@
 
 <h1> What is it!? </h1>
 <p> 
-	8-puzzle-solver is a tool that uses the most famous euristic and non euristic AI algorithms to find a solution to the 8-puzzle problem. <br>
+	8-puzzle-solver is a tool that uses the most famous heuristic and non heuristic AI algorithms to find a solution to the 8-puzzle problem. <br>
 	It comes with a GUI that let's you enter your puzzle or generate a random one and select an algorithm of your choice to solve it. <br>
-	It also desplays bentchmarks such as memory used for the frontier set or the CPU time it took to find the solution.
+	It also displays benchmarks such as memory used for the frontier set or the CPU time it took to find the solution.
 </p>
 
 <h1> How it works?! </h1>
@@ -32,6 +32,7 @@
 
 <h1> Don't wanna build it?! </h1>
 <p>
-    Don't worry. I have relased a version with two executables. Just run 8-puzzle.exe, AI.exe is the the C++ Logic builded. <br>
-    These exes can be found in <a href=""> Here </a>.
+    Don't worry. I have released a version with two executable. Just run 8-puzzle.exe, AI.exe is the the C++ Logic builded. <br>
+    These exes can be found in <a href="https://github.com/KonstantinosPetrakis/8-puzzle-solver/releases"> releases </a>.
+</p>
  
