@@ -16,8 +16,22 @@
 		<img src="readme/stacture.png">
 	</p>
 </p>
+
 <h1> Screenshots </h1>
 <p>
-	<p> <img src="readme/screenshot1.jpg"> </p>
-	<p> <img src="readme/screenshot2.jpg"> </p>
+	<p> <img src="readme/screenshot1.jpg" style="width: 50%; height: 50%;"> </p>
+	<p> <img src="readme/screenshot2.jpg" style="width: 50%; height: 50%;"> </p>
 </p>
+
+<h1> How to build it? </h1>
+<p>
+	Just take all files inside the C++ directory. Put them in a project and compile them all together. <br>
+	After that, get the executable produced, and put it in the directory of the app.py and the web page. <br>
+	That's it! Just run app.py and use the GUI.
+</p>
+
+<h1> Don't wanna build it?! </h1>
+<p>
+    Don't worry. I have relased a version with two executables. Just run 8-puzzle.exe, AI.exe is the the C++ Logic builded. <br>
+    These exes can be found in <a href=""> Here </a>.
+ 
