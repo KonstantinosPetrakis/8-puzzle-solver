@@ -19,8 +19,8 @@
 
 <h1> Screenshots </h1>
 <p>
-	<p> <img src="readme/screenshot1.jpg" width="50%" height="50%"> </p>
-	<p> <img src="readme/screenshot2.jpg" style="width: 50%; height: 50%;"> </p>
+	<p> <img src="readme/screenshot1.jpg" width="70%" height="70%"> </p>
+	<p> <img src="readme/screenshot2.jpg" width="70%" height="70%"> </p>
 </p>
 
 <h1> How to build it? </h1>
