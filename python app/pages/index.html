@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="icon" type="image/x-icon" href="icon.ico?v=2" /
+    <head>
+        <link rel="stylesheet" href="../styles/index.css">
+        <script type="text/javascript" src="../scripts/index.js"> </script>
+        <script type="text/javascript" src="/eel.js"></script>
+        <meta charset="UTF-8">
+        <title>8-puzzle</title>
+    </head>
+    <body oncontextmenu="return false" onselectstart="return false" ondragstart="return false"
+        <div id="main_container">
+            <div id="puzzle_container">
+                <div id="t1" class="tale" onclick="move_to_space(this.id)"> 1 </div>
+                <div id="t2" class="tale" onclick="move_to_space(this.id)"> 2 </div>
+                <div id="t3" class="tale" onclick="move_to_space(this.id)"> 3 </div>
+                <div id="t4" class="tale" onclick="move_to_space(this.id)"> 4 </div>
+                <div id="t5" class="tale" onclick="move_to_space(this.id)"> 5 </div>
+                <div id="t6" class="tale" onclick="move_to_space(this.id)"> 6 </div>
+                <div id="t7" class="tale" onclick="move_to_space(this.id)"> 7 </div>
+                <div id="t8" class="tale" onclick="move_to_space(this.id)"> 8 </div>
+                <div id="t9" class="tale" space></div>
+            </div>
+            <div id="controls_container">
+                <div>
+                    <h1> Controls </h1>
+                </div>
+                <div id="algorithm_selection">
+                    <div>
+                        <label for="algorithm"> Select an algorithm: </label>
+                    </div>
+                    <div>
+                        <select name="algorithm" id="algorithm">
+                            <option value="DFS"> DFS </option>
+                            <option value="BFS"> BFS </option>
+                            <option value="BestFS"> BestFS </option>
+                            <option value="AStar"> A* </option>
+                        </select>
+                    </div>
+                    <div>
+                        <button onClick="run_algorithm();"> Run! </button>
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        <label for="animation_speed"> Animation Speed: </label>
+                    </div>
+                    <div>
+                        <input name=animation_speed" id="animation_speed" value="500" type="range" min="0" max="4000" oninput="document.getElementById('speed_value').value = this.value; document.getElementById('speed_value').dispatchEvent(new Event('change'));">
+                    </div>
+                    <div>
+                        <input size="6" type="text" value="500ms" id="speed_value" onchange="this.value += 'ms'; alter_animation_speed();">
+                    </div>
+                </div>
+                <div id="puzzle_input">
+                    <div>
+                        <label for="puzzle_input_text"> Enter your Puzzle: </label>
+                    </div>
+                    <div>
+                        <input placeholder="1 2 3 4 5 6 7 8 9" type="text" id="puzzle_input_text" oninput="if (this.value[this.value.length - 1] !== ' ') this.value += ' ';">
+                    </div>
+                    <div>
+                        <button onclick="insert_puzzle();"> Ok! </button>
+                    </div>
+                </div>
+                <div id="generate_puzzle">
+                    <div>
+                        <label for="generate_puzzle_radios"> Generate a Puzzle: </label>
+                    </div>
+                    <div id="generate_puzzle_radios">
+                        <label>
+                            easy
+                            <input type="radio" name="radio" value="20">
+                        </label>
+                        <label>
+                            medium
+                            <input type="radio" name="radio" value="40">
+                        </label>
+                        <label>
+                            hard
+                            <input type="radio" name="radio" value="100">
+                        </label>
+                    </div>
+                    <div>
+                        <button onClick="generate_puzzle()"> Ok! </button>
+                    </div>
+                </div>
+                <div id="steps_and_stats">
+                    <div id="steps">
+                        <button onclick="follow_steps()"> Do all the steps </button>
+                    </div>
+                    <div id="stats">
+                        <div id="stats_content"> </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
