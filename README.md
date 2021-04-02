@@ -33,6 +33,6 @@
 <h1> Don't wanna build it?! </h1>
 <p>
     Don't worry. I have released a version with two executable. Just run 8-puzzle.exe, AI.exe is the the C++ Logic builded. <br>
-    These exes can be found in <a href="https://github.com/KonstantinosPetrakis/8-puzzle-solver/releases"> releases </a>.
+    These exes can be found in <a href="https://github.com/KonstantinosPetrakis/8-puzzle-solver/releases"> releases</a>.
 </p>
  
