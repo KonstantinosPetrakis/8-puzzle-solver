@@ -19,7 +19,7 @@
 
 <h1> Screenshots </h1>
 <p>
-	<p> <img src="readme/screenshot1.jpg" style="width: 50%; height: 50%;"> </p>
+	<p> <img src="readme/screenshot1.jpg" width="50%" height="50%"> </p>
 	<p> <img src="readme/screenshot2.jpg" style="width: 50%; height: 50%;"> </p>
 </p>
 
