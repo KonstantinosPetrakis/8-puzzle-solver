@@ -1,0 +1,188 @@
+*{
+    box-sizing: border-box;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+html, body{
+    color: #e1e4e8;
+    width:100%;
+    height:100%;
+    margin:0;
+    background-color: #2d333b;
+}
+
+
+button, input, select{
+    color: #e1e4e8;
+    background-color: #3c415c;
+}
+
+button:active{
+    background-color: #444c56;
+}
+
+button:focus{
+    outline: 0;
+}
+
+input[type="range"]{
+    -webkit-appearance: none;
+    appearance: none;
+    width: 100%;
+    border-radius: 10%;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 10%;
+    height: 1vw;
+    background: #0f2d5c;
+    cursor: pointer;
+    border-radius: 100%;
+}
+
+input[type="range"]::-moz-range-progress {
+  background-color: #43e5f7;
+}
+/* IE*/
+input[type="range"]::-ms-fill-lower {
+  background-color: #43e5f7;
+}
+
+
+#main_container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+#controls_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 30%;
+    height: 95%;
+    font-size:1vw;
+    border: 0.2vw solid black;
+    background-color: #373e47;
+}
+
+#controls_container div{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    width:100%;
+}
+
+#controls_container div div:not(#steps div){
+    margin: 1.6%;
+}
+
+#controls_container div div *{
+    font-size: 1vw;
+    width: 100%;
+}
+
+#generate_puzzle_radios label{
+    text-align:center;
+    margin:2%;
+}
+
+#steps_and_stats{
+    display: flex;
+    align-items: start;
+    width: 100%;
+    height:50%;
+}
+
+#main_container #controls_container #steps{
+    display: block;
+    height:100%;
+    width: 50%;
+    margin:0;
+    border:0.2vw solid black;
+    overflow-y: auto;
+    padding:0;
+}
+
+#main_container #controls_container #steps div{
+    text-align: center;
+}
+
+#main_container #controls_container #steps div:first-child{
+    background-color: #0f2d5c;
+}
+
+#main_container #controls_container #steps button{
+    position:static;
+    top:100%;
+}
+
+#main_container #controls_container #stats{
+    margin:0;
+    border:0.2vw solid black;;
+    width: 50%;
+    height:100%;
+}
+
+#stats div{
+    display:block;
+    height: 100%;
+}
+
+#puzzle_container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 50%;
+    height: 90%;
+    border: 0.2vw solid black;
+    background-color: #444c56;
+}
+
+.tale{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 33.3%;
+    height: 33.3%;
+    position:relative;
+    left:0;
+    top:0;
+    font-size:3vw;
+    border: 0.1vw solid black;
+    background-color: #0f2d5c;
+}
+
+#puzzle_container .tale[space]{
+    border: 0;
+    background-color: #444c56;
+}
+
+#puzzle_container .tale[move-right]{
+    left: 33.3%;
+    transition: left 0.5s;
+}
+
+#puzzle_container .tale[move-left]{
+    left:-33.3%;
+    transition: left 0.5s;
+}
+
+#puzzle_container .tale[move-up]{
+    top: -33.3%;
+    transition: top 0.5s;
+}
+
+#puzzle_container .tale[move-down]{
+    top: 33.3%;
+    transition: top 0.5s;
+}
